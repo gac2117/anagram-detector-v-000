@@ -8,6 +8,7 @@ class Anagram
   end
 
   def match(array)
-    
+    anagram = @anagrams.split(//)
+
   end
 end
