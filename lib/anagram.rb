@@ -11,6 +11,9 @@ class Anagram
 
   def match(array)
     anagram = @anagrams.split(//)
-    binding.pry
+    array.each do |word|
+      item = word.split(//)
+      binding.pry
+    end
   end
 end
