@@ -13,7 +13,7 @@ class Anagram
     anagram = @anagrams.split(//)
     array.each do |word|
       item = word.split(//)
-      binding.pry
+      anagram.sort == item.sort
     end
   end
 end
