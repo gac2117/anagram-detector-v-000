@@ -14,6 +14,7 @@ class Anagram
     array.each do |word|
       item = word.split(//)
       anagram.sort == item.sort
+      binding.pry
     end
   end
 end
