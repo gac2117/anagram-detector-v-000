@@ -11,6 +11,6 @@ class Anagram
 
   def match(array)
     anagram = @anagrams.split(//)
-
+    binding.pry
   end
 end
