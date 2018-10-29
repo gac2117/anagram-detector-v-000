@@ -16,9 +16,8 @@ class Anagram
       item = word.split(//)
       if anagram.sort == item.sort
         matches << word
-        binding.pry
+        matches
       end
-    matches
     end
   end
 end
