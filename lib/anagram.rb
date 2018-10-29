@@ -10,4 +10,4 @@ class Anagram
   def match(array)
     @anagrams == array.split("")
   end
-  
+end
